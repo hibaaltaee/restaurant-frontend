@@ -13,6 +13,8 @@ import AdminLogin from './pages/admin/Login'
 import Dashboard from './pages/admin/Dashboard'
 import ManageMenu from './pages/admin/ManageMenu'
 import ManageCategories from './pages/admin/ManageCategories'
+import ManageStaff from './pages/admin/ManageStaff'
+
 
 // Context
 import { AuthProvider } from './context/AuthContext'
@@ -40,6 +42,7 @@ function App() {
           <Route path="/admin" element={<Dashboard />}/>
           <Route path="/admin/menu" element={<ManageMenu />}/>
           <Route path="/admin/categories" element={<ManageCategories />}/>
+          <Route path="/admin/staff" element={<ManageStaff />}/>
 
           {/* 404 */}
           <Route path="*" element={

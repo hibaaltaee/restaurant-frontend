@@ -83,6 +83,10 @@ const Dashboard = () => {
                     >
                         View Menu
                     </Link>
+                    <Link to="/admin/staff" className="hover:text-orange-500 transition">
+                       Staff
+                    </Link>
+                    
                     <button
                         onClick={handleLogout}
                         className="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-lg transition"
