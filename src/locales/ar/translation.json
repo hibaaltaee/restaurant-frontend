@@ -1,0 +1,94 @@
+{
+    "navbar": {
+        "menu": "القائمة",
+        "staffAccess": "دخول الموظفين"
+    },
+    "home": {
+        "title": "قائمتنا",
+        "subtitle": "طعام طازج ولذيذ مصنوع بحب",
+        "all": "الكل",
+        "noItems": "لا توجد عناصر في هذا التصنيف",
+        "loading": "جاري تحميل القائمة..."
+    },
+    "itemDetail": {
+        "back": "→ العودة إلى القائمة",
+        "unavailable": "هذا العنصر غير متوفر حالياً",
+        "loading": "جاري التحميل...",
+        "notFound": "العنصر غير موجود"
+    },
+    "admin": {
+        "panel": "لوحة التحكم",
+        "dashboard": "الرئيسية",
+        "manageMenu": "إدارة القائمة",
+        "categories": "التصنيفات",
+        "staff": "الموظفون",
+        "viewMenu": "عرض القائمة",
+        "logout": "تسجيل الخروج",
+        "welcome": "مرحباً",
+        "overview": "نظرة عامة على قائمة مطعمك",
+        "totalItems": "إجمالي عناصر القائمة",
+        "totalCategories": "إجمالي التصنيفات",
+        "unavailableItems": "العناصر غير المتوفرة",
+        "quickActions": "إجراءات سريعة",
+        "manageMenuDesc": "إضافة أو تعديل أو حذف عناصر القائمة",
+        "manageCategoriesDesc": "إضافة أو حذف التصنيفات"
+    },
+    "login": {
+        "title": "لوحة التحكم",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "submit": "تسجيل الدخول",
+        "loading": "جاري تسجيل الدخول...",
+        "error": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+        "adminOnly": "غير مصرح. للمسؤولين فقط."
+    },
+    "manageMenu": {
+        "title": "إدارة القائمة",
+        "addItem": "+ إضافة عنصر",
+        "cancel": "إلغاء",
+        "name": "الاسم",
+        "price": "السعر ($)",
+        "category": "التصنيف",
+        "selectCategory": "اختر تصنيفاً",
+        "imageUrl": "رابط الصورة",
+        "description": "الوصف",
+        "available": "متوفر",
+        "addButton": "إضافة عنصر",
+        "updateButton": "تحديث العنصر",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "status": "الحالة",
+        "actions": "الإجراءات",
+        "availableStatus": "متوفر",
+        "unavailableStatus": "غير متوفر"
+    },
+    "manageCategories": {
+        "title": "إدارة التصنيفات",
+        "addNew": "إضافة تصنيف جديد",
+        "placeholder": "مثال: حلويات",
+        "add": "إضافة",
+        "allCategories": "جميع التصنيفات",
+        "noCategories": "لا توجد تصنيفات بعد",
+        "delete": "حذف"
+    },
+    "manageStaff": {
+        "title": "إدارة الموظفين",
+        "addStaff": "+ إضافة موظف",
+        "cancel": "إلغاء",
+        "newAccount": "حساب موظف جديد",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "createAccount": "إنشاء حساب",
+        "allStaff": "جميع الموظفين",
+        "noStaff": "لا توجد حسابات موظفين بعد",
+        "role": "الدور",
+        "joined": "تاريخ الانضمام",
+        "actions": "الإجراءات",
+        "delete": "حذف",
+        "you": "أنت"
+    },
+    "footer": {
+        "rights": "جميع الحقوق محفوظة."
+    }
+}

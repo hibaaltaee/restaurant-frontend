@@ -1,0 +1,94 @@
+{
+    "navbar": {
+        "menu": "Menu",
+        "staffAccess": "Staff Access"
+    },
+    "home": {
+        "title": "Our Menu",
+        "subtitle": "Fresh, delicious food made with love",
+        "all": "All",
+        "noItems": "No items in this category yet",
+        "loading": "Loading menu..."
+    },
+    "itemDetail": {
+        "back": "← Back to menu",
+        "unavailable": "This item is currently unavailable",
+        "loading": "Loading...",
+        "notFound": "Item not found"
+    },
+    "admin": {
+        "panel": "Admin Panel",
+        "dashboard": "Dashboard",
+        "manageMenu": "Manage Menu",
+        "categories": "Categories",
+        "staff": "Staff",
+        "viewMenu": "View Menu",
+        "logout": "Logout",
+        "welcome": "Welcome",
+        "overview": "Here's an overview of your restaurant menu",
+        "totalItems": "Total Menu Items",
+        "totalCategories": "Total Categories",
+        "unavailableItems": "Unavailable Items",
+        "quickActions": "Quick Actions",
+        "manageMenuDesc": "Add, edit or delete menu items",
+        "manageCategoriesDesc": "Add or delete categories"
+    },
+    "login": {
+        "title": "Admin Panel",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Login",
+        "loading": "Logging in...",
+        "error": "Invalid email or password",
+        "adminOnly": "Access denied. Admins only."
+    },
+    "manageMenu": {
+        "title": "Manage Menu",
+        "addItem": "+ Add Item",
+        "cancel": "Cancel",
+        "name": "Name",
+        "price": "Price ($)",
+        "category": "Category",
+        "selectCategory": "Select category",
+        "imageUrl": "Image URL",
+        "description": "Description",
+        "available": "Available",
+        "addButton": "Add Item",
+        "updateButton": "Update Item",
+        "edit": "Edit",
+        "delete": "Delete",
+        "status": "Status",
+        "actions": "Actions",
+        "availableStatus": "Available",
+        "unavailableStatus": "Unavailable"
+    },
+    "manageCategories": {
+        "title": "Manage Categories",
+        "addNew": "Add New Category",
+        "placeholder": "e.g. Desserts",
+        "add": "Add",
+        "allCategories": "All Categories",
+        "noCategories": "No categories yet",
+        "delete": "Delete"
+    },
+    "manageStaff": {
+        "title": "Manage Staff",
+        "addStaff": "+ Add Staff",
+        "cancel": "Cancel",
+        "newAccount": "New Staff Account",
+        "name": "Name",
+        "email": "Email",
+        "password": "Password",
+        "createAccount": "Create Account",
+        "allStaff": "All Staff",
+        "noStaff": "No staff accounts yet",
+        "role": "Role",
+        "joined": "Joined",
+        "actions": "Actions",
+        "delete": "Delete",
+        "you": "You"
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    }
+}

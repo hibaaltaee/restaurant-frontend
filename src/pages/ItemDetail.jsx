@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import API from '../api/axios'
+import { useTranslation } from 'react-i18next'
 
 const ItemDetail = () => {
     const { id } = useParams()
+    const { t } = useTranslation()
     const [item, setItem] = useState(null)
     const [loading, setLoading] = useState(true)
 
@@ -23,15 +25,15 @@ const ItemDetail = () => {
 
     if (loading) return (
         <div className="flex justify-center items-center h-64">
-            <div className="text-orange-500 text-xl">Loading...</div>
+            <div className="text-orange-500 text-xl">{t('itemDetail.loading')}</div>
         </div>
     )
 
     if (!item) return (
         <div className="text-center mt-20">
-            <p className="text-white text-xl">Item not found</p>
+            <p className="text-white text-xl">{t('itemDetail.notFound')}</p>
             <Link to="/" className="text-orange-500 hover:underline mt-4 block">
-                Back to menu
+                {t('itemDetail.back')}
             </Link>
         </div>
     )
@@ -43,7 +45,7 @@ const ItemDetail = () => {
                 to="/"
                 className="text-orange-500 hover:underline mb-6 block"
             >
-                ← Back to menu
+                {t('itemDetail.back')}
             </Link>
 
             {/* Item card */}
@@ -82,7 +84,7 @@ const ItemDetail = () => {
 
                     {!item.available && (
                         <div className="mt-6 bg-red-900 text-red-400 px-4 py-3 rounded-lg">
-                            This item is currently unavailable
+                            {t('itemDetail.unavailable')}
                         </div>
                     )}
                 </div>

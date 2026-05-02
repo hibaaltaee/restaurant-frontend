@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import API from '../api/axios'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const Home = () => {
+    const { t } = useTranslation()
     const [menuItems, setMenuItems] = useState([])
     const [categories, setCategories] = useState([])
     const [selectedCategory, setSelectedCategory] = useState(null)
@@ -32,7 +34,7 @@ const Home = () => {
 
     if (loading) return (
         <div className="flex justify-center items-center h-64">
-            <div className="text-orange-500 text-xl">Loading menu...</div>
+            <div className="text-orange-500 text-xl">{t('home.loading')}</div>
         </div>
     )
 
@@ -41,10 +43,10 @@ const Home = () => {
             {/* Hero */}
             <div className="text-center py-12">
                 <h1 className="text-5xl font-bold text-orange-500 mb-4">
-                    Our Menu 🍕
+                    {t('home.title')} 🍕
                 </h1>
                 <p className="text-gray-400 text-lg">
-                    Fresh, delicious food made with love
+                    {t('home.subtitle')}
                 </p>
             </div>
 
@@ -58,7 +60,7 @@ const Home = () => {
                             : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
                     }`}
                 >
-                    All
+                    {t('home.all')}
                 </button>
                 {categories.map(cat => (
                     <button
@@ -78,7 +80,7 @@ const Home = () => {
             {/* Menu items grid */}
             {filteredItems.length === 0 ? (
                 <p className="text-center text-gray-400 text-lg">
-                    No items in this category yet
+                    {t('home.noItems')}
                 </p>
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -119,7 +121,7 @@ const Home = () => {
                                 </span>
                                 {!item.available && (
                                     <span className="ml-2 bg-red-900 text-red-400 text-xs px-3 py-1 rounded-full">
-                                        Unavailable
+                                        {t('itemDetail.unavailable')}
                                     </span>
                                 )}
                             </div>
